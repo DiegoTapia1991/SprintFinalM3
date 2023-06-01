@@ -5,7 +5,7 @@ import random
 usuarios = ["Juan", "Sofia", "Constanza", "Pedro", "Ramon",
             "Carolina", "Timon", "Eduardo", "Catalina", "Jose"]
 
-#funcion para crear cuenta y asignar contraseña aleatoria
+#funcion para asignar contraseña aleatoria
 def crear_cuenta(usuario):
     caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
     contraseña = "".join(random.choice(caracteres) for _ in range(8))
